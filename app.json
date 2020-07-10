@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MonRetrait",
+    "slug": "monretrait",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "ios": {
+      "bundleIdentifier": "com.gillescedricdev.monretrait",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.gillescedricdev.monretrait",
+      "versionCode": 2
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*.png",
+      "assets/*.jpg"
+    ],
+    "description": "MonRetrait is a small application developed with React Native that allows users to calculate the fees for their MTN and ORANGE Money withdrawals, and offers an optimal withdrawal solution to minimize fees."
+  }
+}
